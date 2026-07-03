@@ -1,0 +1,1673 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Safe Harbor Group | 40 Years of Trusted Financial &amp; Insurance Expertise</title>
+<link href="./Safe Harbor Group _ 40 Years of Trusted Financial &amp; Insurance Expertise 2_files/css2" rel="stylesheet">
+<style>
+:root {
+  --midnight: #0a1628;
+  --deep: #112240;
+  --slate: #1b3a6b;
+  --bronze: #b07d3a;
+  --bronze-light: #d4a054;
+  --bronze-pale: #f0d9b5;
+  --sand: #f5f0e8;
+  --white: #ffffff;
+  --fog: #8a97aa;
+  --body: #2c3e55;
+  --teal: #1a6b78;
+  --teal-light: #22909f;
+  --success: #2d7a4f;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Outfit', sans-serif;
+  color: var(--body);
+  background: var(--white);
+  overflow-x: hidden;
+}
+
+/* ─── NAV ─── */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+  padding: 0 3rem;
+  height: 72px;
+  display: flex; align-items: center; justify-content: space-between;
+  background: rgba(10,22,40,0.97);
+  border-bottom: 1px solid rgba(176,125,58,0.25);
+  backdrop-filter: blur(16px);
+}
+.logo { display: flex; align-items: center; gap: 0.9rem; text-decoration: none; }
+.logo-mark {
+  width: 44px; height: 44px; border-radius: 10px;
+  background: linear-gradient(145deg, var(--bronze), var(--bronze-light));
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.35rem; flex-shrink: 0;
+}
+.logo-text { line-height: 1; }
+.logo-text .name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.35rem; font-weight: 700;
+  color: white; display: block;
+}
+.logo-text .sub {
+  font-size: 0.62rem; color: var(--bronze-light);
+  letter-spacing: 0.14em; text-transform: uppercase;
+}
+.nav-center { display: flex; gap: 2.2rem; list-style: none; }
+.nav-center a {
+  color: rgba(255,255,255,0.72); text-decoration: none;
+  font-size: 0.875rem; font-weight: 500;
+  transition: color 0.2s; letter-spacing: 0.02em;
+}
+.nav-center a:hover { color: var(--bronze-light); }
+.nav-cta {
+  background: linear-gradient(135deg, var(--bronze), var(--bronze-light));
+  color: var(--midnight) !important; font-weight: 600 !important;
+  padding: 0.55rem 1.5rem; border-radius: 6px;
+  text-decoration: none; font-size: 0.875rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.nav-cta:hover { box-shadow: 0 4px 20px rgba(176,125,58,0.5); transform: translateY(-1px); }
+
+/* ─── HERO ─── */
+.hero {
+  min-height: 100vh;
+  background: var(--midnight);
+  position: relative; overflow: hidden;
+  display: flex; align-items: center;
+  padding-top: 72px;
+}
+.hero-lines {
+  position: absolute; inset: 0; pointer-events: none;
+  background-image:
+    linear-gradient(rgba(176,125,58,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(176,125,58,0.06) 1px, transparent 1px);
+  background-size: 80px 80px;
+}
+.hero-glow {
+  position: absolute; top: -10%; right: -5%;
+  width: 700px; height: 700px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(26,107,120,0.18) 0%, transparent 65%);
+  animation: pulse 8s ease-in-out infinite;
+}
+.hero-glow2 {
+  position: absolute; bottom: -20%; left: -10%;
+  width: 500px; height: 500px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(176,125,58,0.1) 0%, transparent 65%);
+  animation: pulse 10s 3s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.08); opacity: 0.7; }
+}
+
+.hero-inner {
+  position: relative; z-index: 2;
+  max-width: 1280px; margin: 0 auto; padding: 5rem 3rem;
+  display: grid; grid-template-columns: 1.1fr 1fr; gap: 5rem; align-items: center;
+}
+
+.hero-eyebrow {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  background: rgba(176,125,58,0.12);
+  border: 1px solid rgba(176,125,58,0.3);
+  color: var(--bronze-light); font-size: 0.78rem;
+  font-weight: 600; letter-spacing: 0.12em;
+  text-transform: uppercase; padding: 0.45rem 1.1rem;
+  border-radius: 100px; margin-bottom: 1.75rem;
+  animation: riseIn 0.7s ease both;
+}
+.hero h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2.8rem, 5.5vw, 4.2rem);
+  color: white; line-height: 1.1; font-weight: 700;
+  animation: riseIn 0.7s 0.1s ease both;
+}
+.hero h1 em { font-style: italic; color: var(--bronze-light); }
+.hero-desc {
+  margin-top: 1.5rem;
+  color: rgba(255,255,255,0.6);
+  font-size: 1.1rem; line-height: 1.75;
+  animation: riseIn 0.7s 0.2s ease both;
+}
+.hero-since {
+  margin-top: 1.75rem;
+  display: inline-flex; align-items: center; gap: 0.75rem;
+  animation: riseIn 0.7s 0.25s ease both;
+}
+.since-badge {
+  background: linear-gradient(135deg, var(--teal), var(--slate));
+  color: white; padding: 0.6rem 1.2rem;
+  border-radius: 8px; font-size: 0.9rem; font-weight: 600;
+}
+.since-text { color: rgba(255,255,255,0.55); font-size: 0.9rem; line-height: 1.4; }
+.since-text strong { color: white; display: block; }
+
+.hero-btns {
+  margin-top: 2.5rem; display: flex; gap: 1rem; flex-wrap: wrap;
+  animation: riseIn 0.7s 0.35s ease both;
+}
+.btn-gold {
+  background: linear-gradient(135deg, var(--bronze), var(--bronze-light));
+  color: var(--midnight); font-weight: 700; padding: 1rem 2.2rem;
+  border-radius: 8px; text-decoration: none; font-size: 1rem;
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.btn-gold:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(176,125,58,0.5); }
+.btn-ghost {
+  border: 1.5px solid rgba(255,255,255,0.2); color: white;
+  padding: 1rem 2rem; border-radius: 8px;
+  text-decoration: none; font-size: 1rem;
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  transition: border-color 0.2s, background 0.2s;
+}
+.btn-ghost:hover { border-color: var(--teal-light); background: rgba(26,107,120,0.12); }
+
+/* EXPERTISE PILLARS (right side of hero) */
+.hero-pillars { display: flex; flex-direction: column; gap: 1rem; animation: riseIn 0.7s 0.45s ease both; }
+.pillar-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-left: 3px solid transparent;
+  border-radius: 12px; padding: 1.25rem 1.5rem;
+  transition: all 0.3s; cursor: default;
+}
+.pillar-card.ins { border-left-color: var(--teal-light); }
+.pillar-card.re { border-left-color: var(--bronze); }
+.pillar-card.trust { border-left-color: #7c5cbf; }
+.pillar-card:hover {
+  background: rgba(255,255,255,0.07);
+  transform: translateX(6px);
+  box-shadow: -4px 0 20px rgba(0,0,0,0.2);
+}
+.pillar-top { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem; }
+.pillar-icon { font-size: 1.3rem; }
+.pillar-title { color: white; font-weight: 600; font-size: 0.95rem; }
+.pillar-badge {
+  margin-left: auto; font-size: 0.7rem;
+  color: rgba(255,255,255,0.45);
+  background: rgba(255,255,255,0.06);
+  padding: 0.2rem 0.6rem; border-radius: 100px;
+}
+.pillar-desc { color: rgba(255,255,255,0.5); font-size: 0.85rem; line-height: 1.5; }
+
+/* ─── LEGACY BAR ─── */
+.legacy-bar {
+  background: linear-gradient(135deg, var(--deep), var(--slate));
+  padding: 2.5rem 3rem;
+  border-top: 1px solid rgba(176,125,58,0.2);
+  border-bottom: 1px solid rgba(176,125,58,0.2);
+}
+.legacy-inner {
+  max-width: 1280px; margin: 0 auto;
+  display: flex; justify-content: space-around; flex-wrap: wrap; gap: 2rem;
+}
+.legacy-stat { text-align: center; }
+.legacy-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.8rem; font-weight: 700;
+  color: var(--bronze-light); line-height: 1;
+}
+.legacy-label { font-size: 0.8rem; color: rgba(255,255,255,0.5); margin-top: 0.4rem; letter-spacing: 0.06em; text-transform: uppercase; }
+
+/* ─── ABOUT / STORY ─── */
+.about-section {
+  background: var(--sand); padding: 7rem 3rem;
+}
+.about-inner {
+  max-width: 1280px; margin: 0 auto;
+  display: grid; grid-template-columns: 1fr 1.2fr; gap: 6rem; align-items: center;
+}
+.about-visual {
+  position: relative;
+}
+.about-card-main {
+  background: var(--midnight);
+  border-radius: 20px; padding: 2.5rem;
+  border: 1px solid rgba(176,125,58,0.2);
+}
+.about-card-main .year-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--bronze), var(--bronze-light));
+  color: var(--midnight); font-weight: 700;
+  font-size: 0.8rem; padding: 0.3rem 0.9rem;
+  border-radius: 100px; letter-spacing: 0.08em;
+  text-transform: uppercase; margin-bottom: 1.25rem;
+}
+.timeline { display: flex; flex-direction: column; gap: 0; }
+.tl-item { display: flex; gap: 1rem; position: relative; padding-bottom: 1.5rem; }
+.tl-item:last-child { padding-bottom: 0; }
+.tl-item::before {
+  content: '';
+  position: absolute; left: 16px; top: 32px; bottom: 0; width: 1px;
+  background: rgba(176,125,58,0.2);
+}
+.tl-item:last-child::before { display: none; }
+.tl-dot {
+  width: 32px; height: 32px; border-radius: 50%; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.9rem; border: 1.5px solid rgba(176,125,58,0.4);
+  background: rgba(176,125,58,0.1); margin-top: 2px;
+}
+.tl-content h4 { color: var(--bronze-light); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+.tl-content p { color: rgba(255,255,255,0.65); font-size: 0.9rem; margin-top: 0.2rem; line-height: 1.5; }
+
+.about-float {
+  position: absolute; bottom: -1.5rem; right: -1.5rem;
+  background: linear-gradient(135deg, var(--teal), var(--teal-light));
+  color: white; border-radius: 14px; padding: 1.25rem 1.5rem;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.2);
+  min-width: 200px;
+}
+.af-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.4rem; font-weight: 700; line-height: 1;
+}
+.af-label { font-size: 0.8rem; opacity: 0.8; margin-top: 0.3rem; }
+
+.about-text .tag {
+  display: inline-block; color: var(--teal); font-size: 0.78rem;
+  font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+.about-text h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2rem, 4vw, 2.9rem);
+  color: var(--midnight); line-height: 1.2; font-weight: 700;
+}
+.about-text p {
+  color: var(--fog); font-size: 1rem; line-height: 1.8;
+  margin-top: 1.25rem;
+}
+.dual-expertise {
+  margin-top: 2rem;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;
+}
+.de-card {
+  border-radius: 12px; padding: 1.25rem;
+  border: 1.5px solid transparent; transition: transform 0.3s;
+}
+.de-card:hover { transform: translateY(-3px); }
+.de-card.ins { background: rgba(26,107,120,0.07); border-color: rgba(26,107,120,0.2); }
+.de-card.re { background: rgba(176,125,58,0.07); border-color: rgba(176,125,58,0.2); }
+.de-card h4 { font-size: 0.9rem; font-weight: 700; margin-bottom: 0.4rem; }
+.de-card.ins h4 { color: var(--teal); }
+.de-card.re h4 { color: var(--bronze); }
+.de-card p { font-size: 0.82rem; color: var(--fog); line-height: 1.6; }
+
+/* ─── INSURANCE SERVICES ─── */
+.ins-section { background: var(--white); padding: 7rem 3rem; }
+.section-header { text-align: center; max-width: 700px; margin: 0 auto 4rem; }
+.s-tag { display: inline-block; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 0.75rem; }
+.s-tag.teal { color: var(--teal); }
+.s-tag.bronze { color: var(--bronze); }
+.s-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2rem, 4vw, 2.9rem);
+  color: var(--midnight); line-height: 1.2; font-weight: 700;
+}
+.s-sub { color: var(--fog); font-size: 1rem; line-height: 1.75; margin-top: 1rem; }
+
+.ins-grid {
+  max-width: 1280px; margin: 0 auto;
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;
+}
+.ins-card {
+  border-radius: 16px; padding: 1.75rem;
+  border: 1.5px solid rgba(13,35,64,0.08);
+  position: relative; overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+}
+.ins-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 60px rgba(10,22,40,0.1);
+  border-color: rgba(26,107,120,0.3);
+}
+.ins-card-icon {
+  width: 50px; height: 50px; border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.4rem; margin-bottom: 1.25rem;
+}
+.ins-card h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3rem; color: var(--midnight); margin-bottom: 0.65rem; font-weight: 700;
+}
+.ins-card p { color: var(--fog); font-size: 0.9rem; line-height: 1.7; }
+.ins-bullets { list-style: none; margin-top: 1rem; }
+.ins-bullets li {
+  font-size: 0.85rem; color: var(--fog);
+  padding: 0.28rem 0;
+  display: flex; align-items: center; gap: 0.5rem;
+}
+.ins-bullets li::before { content: '›'; color: var(--teal-light); font-size: 1.1rem; font-weight: 700; }
+.highlight-card {
+  background: var(--midnight);
+  grid-column: span 1;
+}
+.highlight-card h3 { color: var(--bronze-light); }
+.highlight-card p { color: rgba(255,255,255,0.55); }
+.highlight-card .ins-bullets li { color: rgba(255,255,255,0.55); }
+.highlight-card .ins-bullets li::before { color: var(--bronze-light); }
+
+/* ─── REAL ESTATE / MORTGAGE ─── */
+.re-section { background: var(--midnight); padding: 7rem 3rem; position: relative; overflow: hidden; }
+.re-section::before {
+  content: '';
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 50% 70% at 90% 50%, rgba(176,125,58,0.1) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 40% at 10% 80%, rgba(26,107,120,0.12) 0%, transparent 60%);
+}
+.re-inner { max-width: 1280px; margin: 0 auto; position: relative; z-index: 1; }
+.re-top { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: end; margin-bottom: 3.5rem; }
+.re-section .s-title { color: white; }
+.re-section .s-sub { color: rgba(255,255,255,0.55); }
+.re-highlight-box {
+  background: rgba(176,125,58,0.1);
+  border: 1px solid rgba(176,125,58,0.25);
+  border-radius: 14px; padding: 1.5rem;
+  color: var(--bronze-pale);
+  font-size: 1rem; line-height: 1.7;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.15rem;
+}
+.re-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem;
+}
+.re-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px; padding: 1.5rem;
+  transition: background 0.3s, border-color 0.3s, transform 0.3s;
+}
+.re-card:hover {
+  background: rgba(255,255,255,0.07);
+  border-color: rgba(176,125,58,0.3);
+  transform: translateY(-4px);
+}
+.re-card-head { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.85rem; }
+.re-card-icon {
+  width: 40px; height: 40px; border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.1rem;
+}
+.re-card h4 { color: white; font-weight: 600; font-size: 1rem; }
+.re-card p { color: rgba(255,255,255,0.5); font-size: 0.88rem; line-height: 1.65; }
+.re-synergy {
+  margin-top: 3rem;
+  background: linear-gradient(135deg, rgba(26,107,120,0.2), rgba(176,125,58,0.15));
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 16px; padding: 2rem 2.5rem;
+  display: flex; gap: 2rem; align-items: center;
+}
+.rs-icon { font-size: 2.5rem; flex-shrink: 0; }
+.rs-text h3 {
+  font-family: 'Cormorant Garamond', serif;
+  color: white; font-size: 1.4rem; font-weight: 700; margin-bottom: 0.5rem;
+}
+.rs-text p { color: rgba(255,255,255,0.6); font-size: 0.95rem; line-height: 1.7; }
+
+/* ─── TRUST FUNDING ─── */
+.trust-section { background: var(--sand); padding: 7rem 3rem; }
+.trust-grid {
+  max-width: 1280px; margin: 3rem auto 0;
+  display: grid; grid-template-columns: 1.2fr 1fr; gap: 5rem; align-items: start;
+}
+.trust-steps { display: flex; flex-direction: column; gap: 1.25rem; }
+.trust-step {
+  display: flex; gap: 1.25rem; align-items: flex-start;
+  background: white; border-radius: 14px; padding: 1.5rem;
+  border: 1px solid rgba(10,22,40,0.07);
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+.trust-step:hover { box-shadow: 0 8px 30px rgba(10,22,40,0.08); transform: translateX(4px); }
+.ts-num {
+  width: 38px; height: 38px; border-radius: 50%; flex-shrink: 0;
+  background: linear-gradient(135deg, var(--teal), var(--teal-light));
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.85rem; font-weight: 700; color: white;
+}
+.ts-body h4 { color: var(--midnight); font-weight: 700; font-size: 0.95rem; }
+.ts-body p { color: var(--fog); font-size: 0.87rem; line-height: 1.6; margin-top: 0.3rem; }
+
+.trust-types { display: flex; flex-direction: column; gap: 1rem; }
+.trust-type-card {
+  background: white; border-radius: 14px; padding: 1.5rem;
+  border-left: 4px solid var(--bronze);
+  box-shadow: 0 2px 16px rgba(10,22,40,0.05);
+  transition: box-shadow 0.3s;
+}
+.trust-type-card:hover { box-shadow: 0 8px 32px rgba(10,22,40,0.1); }
+.trust-type-card h4 { color: var(--midnight); font-weight: 700; font-size: 0.95rem; margin-bottom: 0.4rem; }
+.trust-type-card p { color: var(--fog); font-size: 0.87rem; line-height: 1.6; }
+.tc-tag {
+  display: inline-block; margin-bottom: 0.5rem;
+  background: rgba(176,125,58,0.12); color: var(--bronze);
+  font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em;
+  text-transform: uppercase; padding: 0.2rem 0.65rem; border-radius: 100px;
+}
+
+/* ─── CTA ─── */
+.cta-section {
+  background: linear-gradient(145deg, var(--deep) 0%, var(--slate) 50%, var(--midnight) 100%);
+  padding: 7rem 3rem; text-align: center; position: relative; overflow: hidden;
+}
+.cta-section::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse 60% 80% at 50% 50%, rgba(176,125,58,0.1), transparent 65%);
+}
+.cta-inner { position: relative; z-index: 1; max-width: 720px; margin: 0 auto; }
+.cta-inner h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2.2rem, 5vw, 3.2rem); color: white; font-weight: 700; line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.cta-inner p { color: rgba(255,255,255,0.65); font-size: 1.05rem; line-height: 1.75; margin-bottom: 2.5rem; }
+.cta-row { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.btn-outline-gold {
+  border: 1.5px solid rgba(176,125,58,0.4); color: var(--bronze-light);
+  padding: 1rem 2rem; border-radius: 8px; text-decoration: none;
+  font-size: 0.95rem; font-weight: 600;
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  transition: all 0.2s;
+}
+.btn-outline-gold:hover { background: rgba(176,125,58,0.1); border-color: var(--bronze-light); }
+
+/* ─── CONTACT ─── */
+.contact-section { background: var(--sand); padding: 7rem 3rem; }
+.contact-grid {
+  max-width: 1280px; margin: 3rem auto 0;
+  display: grid; grid-template-columns: 1fr 1.5fr; gap: 5rem; align-items: start;
+}
+.contact-left h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.7rem; color: var(--midnight); margin-bottom: 1rem; font-weight: 700;
+}
+.contact-left p { color: var(--fog); line-height: 1.8; font-size: 0.95rem; margin-bottom: 2rem; }
+.c-info { display: flex; flex-direction: column; gap: 0.85rem; }
+.c-item { display: flex; gap: 0.75rem; align-items: flex-start; }
+.c-icon { font-size: 1.1rem; flex-shrink: 0; padding-top: 2px; }
+.c-text { font-size: 0.9rem; color: var(--body); line-height: 1.5; }
+.c-text strong { display: block; color: var(--midnight); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.1rem; }
+.licenses {
+  margin-top: 2rem; padding-top: 1.5rem;
+  border-top: 1px solid rgba(10,22,40,0.1);
+}
+.licenses h4 { font-size: 0.78rem; font-weight: 700; color: var(--midnight); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem; }
+.lic-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.lic-pill {
+  font-size: 0.75rem; color: var(--teal);
+  background: rgba(26,107,120,0.08); border: 1px solid rgba(26,107,120,0.2);
+  padding: 0.25rem 0.7rem; border-radius: 100px;
+}
+
+.form-box {
+  background: white; border-radius: 20px; padding: 2.5rem;
+  box-shadow: 0 12px 60px rgba(10,22,40,0.08);
+}
+.form-box h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; color: var(--midnight); margin-bottom: 1.5rem; font-weight: 700; }
+.f-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.1rem; }
+.f-group { display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 1.1rem; }
+label { font-size: 0.82rem; font-weight: 600; color: var(--midnight); letter-spacing: 0.03em; }
+input, select, textarea {
+  padding: 0.8rem 1rem; border: 1.5px solid rgba(10,22,40,0.12);
+  border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 0.95rem;
+  color: var(--body); outline: none; background: white;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+input:focus, select:focus, textarea:focus {
+  border-color: var(--teal);
+  box-shadow: 0 0 0 3px rgba(26,107,120,0.1);
+}
+textarea { resize: vertical; min-height: 90px; }
+.f-submit {
+  width: 100%; padding: 1.05rem;
+  background: linear-gradient(135deg, var(--midnight), var(--slate));
+  color: white; border: none; border-radius: 8px;
+  font-family: 'Outfit', sans-serif; font-size: 1rem; font-weight: 600;
+  cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;
+  margin-top: 0.5rem;
+}
+.f-submit:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(10,22,40,0.3); }
+
+/* ─── FOOTER ─── */
+footer {
+  background: var(--midnight);
+  padding: 3.5rem 3rem 2rem;
+  border-top: 1px solid rgba(176,125,58,0.2);
+}
+.footer-top {
+  max-width: 1280px; margin: 0 auto;
+  display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 3rem;
+  padding-bottom: 2.5rem; border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+.footer-brand .name {
+  font-family: 'Cormorant Garamond', serif; color: white;
+  font-size: 1.4rem; font-weight: 700; display: block; margin-bottom: 0.75rem;
+}
+.footer-brand p { color: rgba(255,255,255,0.45); font-size: 0.87rem; line-height: 1.7; }
+.footer-col h5 {
+  color: rgba(255,255,255,0.4); font-size: 0.72rem; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 1rem;
+}
+.footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+.footer-col a {
+  color: rgba(255,255,255,0.55); text-decoration: none;
+  font-size: 0.88rem; transition: color 0.2s;
+}
+.footer-col a:hover { color: var(--bronze-light); }
+.footer-bottom {
+  max-width: 1280px; margin: 1.75rem auto 0;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem;
+  font-size: 0.8rem; color: rgba(255,255,255,0.35);
+}
+.disclaimer {
+  max-width: 1280px; margin: 1.5rem auto 0;
+  font-size: 0.72rem; color: rgba(255,255,255,0.28); line-height: 1.7;
+}
+
+@keyframes riseIn {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 900px) {
+  nav { padding: 0 1.25rem; }
+  .nav-center { display: none; }
+  .hero-inner, .about-inner, .trust-grid, .contact-grid, .re-top { grid-template-columns: 1fr; }
+  .ins-grid, .re-grid { grid-template-columns: 1fr 1fr; }
+  .footer-top { grid-template-columns: 1fr 1fr; }
+  .dual-expertise { grid-template-columns: 1fr; }
+  .f-row { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .ins-grid, .re-grid { grid-template-columns: 1fr; }
+  .footer-top { grid-template-columns: 1fr; }
+  nav { padding: 0 1rem; }
+  .hero-inner, .legacy-bar { padding: 2.5rem 1.5rem; }
+}
+</style>
+
+</head><body>/* ─── TRANSIT / AGENCY RETAIL SECTION ─── */
+.transit-section { background: var(--midnight); padding: 7rem 3rem; position: relative; overflow: hidden; }
+.transit-section::before {
+  content: ''; position: absolute; inset: 0;
+  background-image: linear-gradient(rgba(176,125,58,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(176,125,58,0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+.transit-inner { max-width: 1200px; margin: 0 auto; position: relative; }
+.transit-header { text-align: center; max-width: 760px; margin: 0 auto 3.5rem; }
+.transit-header .s-title { color: white; }
+.transit-header .s-sub { color: rgba(255,255,255,0.55); }
+.agency-badges { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 3rem; }
+.agency-badge {
+  background: rgba(176,125,58,0.12); border: 1px solid rgba(176,125,58,0.3);
+  color: var(--bronze-light); font-size: 0.8rem; font-weight: 600;
+  letter-spacing: 0.1em; padding: 0.45rem 1.1rem; border-radius: 20px;
+  text-transform: uppercase;
+}
+.transit-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-bottom: 3rem; }
+.transit-card {
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(176,125,58,0.15);
+  border-radius: 14px; padding: 2rem;
+  transition: background 0.25s, border-color 0.25s;
+}
+.transit-card:hover { background: rgba(255,255,255,0.07); border-color: rgba(176,125,58,0.35); }
+.transit-card-icon { font-size: 2rem; margin-bottom: 1rem; }
+.transit-card h3 { color: white; font-size: 1.1rem; font-weight: 600; margin-bottom: 0.65rem; }
+.transit-card p { color: rgba(255,255,255,0.55); font-size: 0.9rem; line-height: 1.65; }
+.transit-stat-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-bottom: 3rem; }
+.t-stat {
+  background: rgba(176,125,58,0.08); border: 1px solid rgba(176,125,58,0.2);
+  border-radius: 12px; padding: 1.5rem; text-align: center;
+}
+.t-stat-num { font-size: 2.2rem; font-weight: 700; color: var(--bronze-light); font-family: 'Cormorant Garamond', serif; }
+.t-stat-label { font-size: 0.8rem; color: rgba(255,255,255,0.5); margin-top: 0.35rem; text-transform: uppercase; letter-spacing: 0.08em; }
+.transit-cta-box {
+  background: linear-gradient(135deg, rgba(176,125,58,0.15), rgba(26,107,120,0.15));
+  border: 1px solid rgba(176,125,58,0.25); border-radius: 16px; padding: 2.5rem;
+  display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap;
+}
+.transit-cta-box h3 { color: white; font-size: 1.3rem; margin-bottom: 0.5rem; }
+.transit-cta-box p { color: rgba(255,255,255,0.6); font-size: 0.9rem; max-width: 500px; }
+.btn-bronze {
+  background: linear-gradient(135deg, var(--bronze), var(--bronze-light));
+  color: var(--midnight); font-weight: 700; padding: 0.85rem 2rem;
+  border-radius: 8px; text-decoration: none; font-size: 0.95rem;
+  white-space: nowrap; transition: box-shadow 0.2s, transform 0.2s;
+  display: inline-block;
+}
+.btn-bronze:hover { box-shadow: 0 6px 24px rgba(176,125,58,0.5); transform: translateY(-2px); }
+.btn-teal {
+  background: transparent; border: 2px solid rgba(26,107,120,0.6);
+  color: var(--teal-light); font-weight: 600; padding: 0.8rem 1.8rem;
+  border-radius: 8px; text-decoration: none; font-size: 0.9rem;
+  white-space: nowrap; transition: all 0.2s; display: inline-block;
+}
+.btn-teal:hover { background: rgba(26,107,120,0.2); border-color: var(--teal-light); }
+
+/* ─── ESTATE PLANNING SECTION ─── */
+.estate-section { background: var(--sand); padding: 7rem 3rem; }
+.estate-inner { max-width: 1200px; margin: 0 auto; }
+.estate-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; margin-top: 3.5rem; }
+.estate-pillars { display: flex; flex-direction: column; gap: 1.25rem; }
+.ep-card {
+  background: white; border-radius: 14px; padding: 1.75rem;
+  border-left: 4px solid var(--bronze); box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.ep-card:hover { transform: translateX(4px); box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+.ep-card-top { display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.65rem; }
+.ep-icon { font-size: 1.4rem; }
+.ep-card h4 { font-size: 1rem; font-weight: 700; color: var(--midnight); }
+.ep-card p { font-size: 0.88rem; color: var(--body); line-height: 1.6; }
+.estate-right { position: sticky; top: 100px; }
+.estate-highlight {
+  background: var(--midnight); border-radius: 20px; padding: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.estate-highlight h3 { color: var(--bronze-light); font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; margin-bottom: 1rem; }
+.estate-highlight p { color: rgba(255,255,255,0.65); font-size: 0.9rem; line-height: 1.7; margin-bottom: 1.5rem; }
+.estate-checklist { list-style: none; }
+.estate-checklist li { color: rgba(255,255,255,0.75); font-size: 0.9rem; padding: 0.4rem 0; padding-left: 1.5rem; position: relative; }
+.estate-checklist li::before { content: '✓'; position: absolute; left: 0; color: var(--bronze-light); font-weight: 700; }
+.estate-partner-box {
+  background: white; border-radius: 14px; padding: 1.75rem;
+  border: 1px solid rgba(176,125,58,0.2); box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+.estate-partner-box h4 { color: var(--midnight); font-size: 1rem; font-weight: 700; margin-bottom: 0.65rem; }
+.estate-partner-box p { color: var(--body); font-size: 0.88rem; line-height: 1.6; }
+
+/* ─── RETIREMENT SECTION ─── */
+.retirement-section { background: white; padding: 7rem 3rem; }
+.retirement-inner { max-width: 1200px; margin: 0 auto; }
+.ret-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin: 3.5rem 0; }
+.ret-card {
+  border-radius: 16px; padding: 2rem;
+  border: 1px solid rgba(0,0,0,0.07); transition: box-shadow 0.2s, transform 0.2s;
+}
+.ret-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.1); transform: translateY(-3px); }
+.ret-card.rollover { background: linear-gradient(135deg, #f0f7ff, #e8f0fb); border-color: rgba(27,58,107,0.15); }
+.ret-card.tax { background: linear-gradient(135deg, #f0faf5, #e8f5ee); border-color: rgba(45,122,79,0.15); }
+.ret-card.income { background: linear-gradient(135deg, #fff8ee, #fef0d8); border-color: rgba(176,125,58,0.2); }
+.ret-card-icon { font-size: 2rem; margin-bottom: 1rem; }
+.ret-card h3 { font-size: 1.1rem; font-weight: 700; color: var(--midnight); margin-bottom: 0.65rem; }
+.ret-card p { font-size: 0.88rem; color: var(--body); line-height: 1.65; margin-bottom: 1rem; }
+.ret-bullets { list-style: none; }
+.ret-bullets li { font-size: 0.85rem; color: var(--body); padding: 0.3rem 0; padding-left: 1.2rem; position: relative; }
+.ret-bullets li::before { content: '›'; position: absolute; left: 0; color: var(--bronze); font-weight: 700; }
+.rmd-banner {
+  background: var(--midnight); border-radius: 16px; padding: 2.5rem 3rem;
+  display: flex; gap: 3rem; align-items: center; flex-wrap: wrap;
+}
+.rmd-banner-text h3 { color: var(--bronze-light); font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; margin-bottom: 0.65rem; }
+.rmd-banner-text p { color: rgba(255,255,255,0.65); font-size: 0.9rem; line-height: 1.7; max-width: 580px; }
+.rmd-badge { flex-shrink: 0; text-align: center; }
+.rmd-badge-num { font-size: 3rem; font-weight: 700; color: var(--bronze-light); font-family: 'Cormorant Garamond', serif; line-height: 1; }
+.rmd-badge-label { font-size: 0.75rem; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 0.35rem; }
+
+/* ─── COMMERCIAL RE BROKERAGE ─── */
+.cre-section { background: var(--sand); padding: 7rem 3rem; }
+.cre-inner { max-width: 1200px; margin: 0 auto; }
+.cre-split { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; margin-top: 3.5rem; }
+.cre-left { }
+.cre-service-stack { display: flex; flex-direction: column; gap: 1rem; }
+.cre-service {
+  background: white; border-radius: 12px; padding: 1.5rem;
+  border: 1px solid rgba(0,0,0,0.07); display: flex; gap: 1.2rem; align-items: flex-start;
+  transition: box-shadow 0.2s;
+}
+.cre-service:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+.cre-service-icon { font-size: 1.6rem; flex-shrink: 0; }
+.cre-service h4 { font-size: 0.98rem; font-weight: 700; color: var(--midnight); margin-bottom: 0.4rem; }
+.cre-service p { font-size: 0.86rem; color: var(--body); line-height: 1.6; }
+.cre-right { }
+.cre-market-box {
+  background: var(--midnight); border-radius: 20px; padding: 2.5rem; margin-bottom: 1.5rem;
+}
+.cre-market-box h3 { color: var(--bronze-light); font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; margin-bottom: 1.25rem; }
+.market-tag { display: inline-block; background: rgba(176,125,58,0.15); border: 1px solid rgba(176,125,58,0.3); color: var(--bronze-light); font-size: 0.78rem; font-weight: 600; letter-spacing: 0.08em; padding: 0.3rem 0.85rem; border-radius: 20px; margin: 0.25rem; text-transform: uppercase; }
+.cre-license-box {
+  background: white; border-radius: 14px; padding: 1.75rem;
+  border: 1px solid rgba(176,125,58,0.2); box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+.cre-license-box h4 { font-size: 0.95rem; font-weight: 700; color: var(--midnight); margin-bottom: 0.75rem; }
+.lic-detail { font-size: 0.85rem; color: var(--body); padding: 0.35rem 0; border-bottom: 1px solid rgba(0,0,0,0.05); }
+.lic-detail:last-child { border-bottom: none; }
+.lic-detail strong { color: var(--midnight); }
+
+/* ─── OPERATOR NETWORK SIGNUP ─── */
+.network-section { background: var(--midnight); padding: 6rem 3rem; }
+.network-inner { max-width: 900px; margin: 0 auto; text-align: center; }
+.network-inner .s-tag { display: inline-block; margin-bottom: 1rem; }
+.network-inner h2 { color: white; font-family: 'Cormorant Garamond', serif; font-size: 2.8rem; margin-bottom: 1rem; }
+.network-inner &gt; p { color: rgba(255,255,255,0.6); font-size: 1rem; line-height: 1.7; max-width: 640px; margin: 0 auto 2.5rem; }
+.network-perks { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-bottom: 2.5rem; }
+.network-perk { background: rgba(255,255,255,0.05); border: 1px solid rgba(176,125,58,0.2); border-radius: 12px; padding: 1.25rem; text-align: left; }
+.network-perk-icon { font-size: 1.5rem; margin-bottom: 0.5rem; }
+.network-perk h4 { color: var(--bronze-light); font-size: 0.9rem; font-weight: 600; margin-bottom: 0.35rem; }
+.network-perk p { color: rgba(255,255,255,0.5); font-size: 0.82rem; line-height: 1.5; }
+.network-form { background: rgba(255,255,255,0.04); border: 1px solid rgba(176,125,58,0.2); border-radius: 16px; padding: 2rem; }
+.network-form-row { display: grid; grid-template-columns: 1fr 1fr 1fr auto; gap: 0.75rem; align-items: end; }
+.nf-group { text-align: left; }
+.nf-group label { display: block; color: rgba(255,255,255,0.6); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 0.4rem; }
+.nf-group input, .nf-group select {
+  width: 100%; background: rgba(255,255,255,0.07); border: 1px solid rgba(176,125,58,0.25);
+  border-radius: 8px; padding: 0.75rem 1rem; color: white; font-size: 0.9rem;
+  outline: none; transition: border-color 0.2s;
+}
+.nf-group input::placeholder { color: rgba(255,255,255,0.3); }
+.nf-group input:focus, .nf-group select:focus { border-color: var(--bronze-light); }
+.nf-group select option { background: var(--midnight); color: white; }
+.network-disclaimer { margin-top: 1rem; color: rgba(255,255,255,0.35); font-size: 0.78rem; }
+
+/* ─── CAMPAIGN / SOCIAL PROOF STRIP ─── */
+.social-strip { background: var(--deep); padding: 2.5rem 3rem; border-top: 1px solid rgba(176,125,58,0.15); border-bottom: 1px solid rgba(176,125,58,0.15); }
+.social-strip-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1.5rem; }
+.social-strip-text h3 { color: white; font-size: 1.15rem; font-weight: 600; margin-bottom: 0.3rem; }
+.social-strip-text p { color: rgba(255,255,255,0.5); font-size: 0.88rem; }
+.social-links { display: flex; gap: 0.75rem; }
+.social-link {
+  display: flex; align-items: center; gap: 0.5rem;
+  padding: 0.6rem 1.2rem; border-radius: 8px; text-decoration: none;
+  font-size: 0.85rem; font-weight: 600; transition: all 0.2s;
+}
+.social-link.linkedin { background: rgba(0,119,181,0.2); border: 1px solid rgba(0,119,181,0.4); color: #7db8d9; }
+.social-link.linkedin:hover { background: rgba(0,119,181,0.35); }
+.social-link.facebook { background: rgba(24,119,242,0.2); border: 1px solid rgba(24,119,242,0.4); color: #8ab4f8; }
+.social-link.facebook:hover { background: rgba(24,119,242,0.35); }
+.social-link.instagram { background: rgba(193,53,132,0.2); border: 1px solid rgba(193,53,132,0.4); color: #e48ab4; }
+.social-link.instagram:hover { background: rgba(193,53,132,0.35); }
+.social-link.email { background: rgba(176,125,58,0.2); border: 1px solid rgba(176,125,58,0.4); color: var(--bronze-light); }
+.social-link.email:hover { background: rgba(176,125,58,0.35); }
+
+/* ─── RESPONSIVE ADDITIONS ─── */
+@media (max-width: 900px) {
+  .transit-grid { grid-template-columns: 1fr 1fr; }
+  .transit-stat-row { grid-template-columns: 1fr 1fr; }
+  .estate-grid, .cre-split { grid-template-columns: 1fr; gap: 2.5rem; }
+  .ret-grid { grid-template-columns: 1fr 1fr; }
+  .network-grid { grid-template-columns: 1fr; }
+  .network-form-row { grid-template-columns: 1fr 1fr; }
+  .network-perks { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 600px) {
+  .transit-grid, .ret-grid { grid-template-columns: 1fr; }
+  .transit-stat-row { grid-template-columns: repeat(2,1fr); }
+  .network-form-row { grid-template-columns: 1fr; }
+  .network-perks { grid-template-columns: 1fr; }
+  .transit-section, .estate-section, .retirement-section, .cre-section, .network-section { padding: 5rem 1.5rem; }
+}
+
+
+
+
+
+<!-- NAV -->
+<nav>
+  <a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#" class="logo">
+    <div class="logo-mark">⚓</div>
+    <div class="logo-text">
+      <span class="name">Safe Harbor Group</span>
+      <span class="sub">Insurance · Real Estate · Estate Planning · Transit Retail</span>
+    </div>
+  </a>
+  <ul class="nav-center">
+    <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#about">About</a></li>
+    <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#insurance">Insurance</a></li>
+    <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#estate">Estate Planning</a></li>
+    <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#retirement">Retirement</a></li>
+    <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#commercial">Real Estate</a></li>
+    <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#transit">Transit Retail</a></li>
+    <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#contact" class="nav-cta">Free Consultation</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-lines"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+  <div class="hero-inner">
+    <div>
+      <div class="hero-eyebrow">⚓ Licensed · Experienced · Independent</div>
+      <h1>Four Decades of Expertise.<br><em>One Trusted Advisor.</em></h1>
+      <p class="hero-desc">Since 1985, Safe Harbor Group has delivered comprehensive insurance, estate planning, retirement strategy, commercial real estate brokerage, and public agency transit retail consulting — all under one roof. Robert P. Brown is the rare adviser who holds both insurance and real estate licenses, giving clients a cross-discipline advantage most firms simply can't match.</p>
+      <div class="hero-since">
+        <div class="since-badge">Est. 1985</div>
+        <div class="since-text">
+          <strong>Robert P. Brown — 40+ Years in the Industry</strong>
+          Licensed NYS Real Estate Broker #10491205181 · Life &amp; Accident Insurance Agent NPN #16050624<br>
+          Serving NY · NJ · DE · MD · Transit &amp; Public Agency Markets
+        </div>
+      </div>
+      <div class="hero-btns">
+        <a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#contact" class="btn-gold">📅 Free Consultation</a>
+        <a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#transit" class="btn-ghost">Transit Retail Opportunities →</a>
+      </div>
+    </div>
+    <div class="hero-pillars">
+      <div class="pillar-card ins">
+        <div class="pillar-top">
+          <div class="pillar-icon">🛡️</div>
+          <div class="pillar-title">Insurance &amp; Financial Planning</div>
+          <div class="pillar-badge">Since 1985</div>
+        </div>
+        <div class="pillar-desc">Life, annuities, disability, long-term care, Medicare, and trust funding strategies.</div>
+      </div>
+      <div class="pillar-card re">
+        <div class="pillar-top">
+          <div class="pillar-icon">🏢</div>
+          <div class="pillar-title">Commercial Real Estate Brokerage</div>
+          <div class="pillar-badge">Licensed Broker</div>
+        </div>
+        <div class="pillar-desc">Commercial brokerage, estate planning integration, and transit retail deal sourcing across NY, NJ, DE &amp; MD.</div>
+      </div>
+      <div class="pillar-card trust">
+        <div class="pillar-top">
+          <div class="pillar-icon">🚇</div>
+          <div class="pillar-title">Transit &amp; Agency Retail</div>
+          <div class="pillar-badge">MTA · PANYNJ · EDC</div>
+        </div>
+        <div class="pillar-desc">Direct deal flow from MTA, Port Authority, NYC EDC, and other public agencies. RFP sourcing and operator consulting.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEGACY BAR -->
+<div class="legacy-bar">
+  <div class="legacy-inner">
+    <div class="legacy-stat">
+      <div class="legacy-num">40+</div>
+      <div class="legacy-label">Years in Industry</div>
+    </div>
+    <div class="legacy-stat">
+      <div class="legacy-num">6</div>
+      <div class="legacy-label">Service Disciplines</div>
+    </div>
+    <div class="legacy-stat">
+      <div class="legacy-num">2</div>
+      <div class="legacy-label">Professional Licenses</div>
+    </div>
+    <div class="legacy-stat">
+      <div class="legacy-num">4</div>
+      <div class="legacy-label">States Licensed</div>
+    </div>
+    <div class="legacy-stat">
+      <div class="legacy-num">$0</div>
+      <div class="legacy-label">Consultation Fee</div>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+  <div class="about-inner">
+    <div class="about-visual">
+      <div class="about-card-main">
+        <div class="year-tag">Career Timeline</div>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-dot">📋</div>
+            <div class="tl-content">
+              <h4>1985 — Industry Entry</h4>
+              <p>Began career as a licensed Life &amp; Accident Insurance Agent, building a foundation in protection planning.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot">🏠</div>
+            <div class="tl-content">
+              <h4>Real Estate Expansion</h4>
+              <p>Earned NYS Real Estate Broker License #10491205181 — adding commercial brokerage and mortgage expertise to the practice.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot">⚖️</div>
+            <div class="tl-content">
+              <h4>Estate &amp; Retirement Specialization</h4>
+              <p>Became a specialist in estate tax strategy, ILIT funding, retirement income planning, and beneficiary coordination.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot">🚇</div>
+            <div class="tl-content">
+              <h4>Transit &amp; Public Agency Practice</h4>
+              <p>Established a direct pipeline for MTA, Port Authority, and NYC EDC retail RFPs — becoming an authorized deal flow distribution channel.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot">⚓</div>
+            <div class="tl-content">
+              <h4>Today — Safe Harbor Group</h4>
+              <p>A full-service cross-discipline advisory practice: insurance, estate planning, retirement, commercial real estate, and transit retail.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-float">
+        <div class="af-num">1985</div>
+        <div class="af-label">Trusted Since</div>
+      </div>
+    </div>
+    <div class="about-text">
+      <div class="tag">Our Story</div>
+      <h2>A Rare Cross-Discipline Expertise That Works for You</h2>
+      <p>With over 40 years in financial services, Safe Harbor Group brings a unique advantage to every client relationship: deep expertise in insurance, real estate brokerage, estate planning, retirement strategy, and public agency retail — all held by one licensed, independent adviser.</p>
+      <p>This cross-discipline positioning means we see your financial picture whole — your protection needs, your property assets, your legacy goals, and your business expansion opportunities — and we build strategies that align across all of them.</p>
+      <div class="dual-expertise">
+        <div class="de-card ins">
+          <h4>🛡️ Insurance &amp; Planning</h4>
+          <p>Life, annuities, disability, long-term care, Medicare, and trust funding since 1985. NPN #16050624.</p>
+        </div>
+        <div class="de-card re">
+          <h4>🏢 Real Estate &amp; Retail</h4>
+          <p>Licensed NYS Broker #10491205181. Commercial brokerage, estate coordination, and public agency deal flow across NY, NJ, DE &amp; MD.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INSURANCE SERVICES -->
+<section class="ins-section" id="insurance">
+  <div class="section-header">
+    <div class="s-tag teal">Insurance &amp; Financial Planning</div>
+    <h2 class="s-title">Comprehensive Coverage for Every Stage of Life</h2>
+    <p class="s-sub">From growing families to retiring executives — we build tailored protection strategies backed by 40 years of real-world expertise.</p>
+  </div>
+  <div class="ins-grid">
+    <div class="ins-card">
+      <div class="ins-card-icon" style="background:rgba(26,107,120,0.1);">🛡️</div>
+      <h3>Life Insurance</h3>
+      <p>Protect your family's financial future with policies built to last — whether term, permanent, or indexed universal life.</p>
+      <ul class="ins-bullets">
+        <li>Term &amp; Whole Life Policies</li>
+        <li>Indexed Universal Life (IUL)</li>
+        <li>Final Expense Coverage</li>
+        <li>Business Key Person Insurance</li>
+      </ul>
+    </div>
+    <div class="ins-card highlight-card">
+      <div class="ins-card-icon" style="background:rgba(176,125,58,0.15);">⚖️</div>
+      <h3>Trust Funding</h3>
+      <p>Our specialty — using life insurance and annuities to fund ILITs, living trusts, and estate plans with precision and tax efficiency.</p>
+      <ul class="ins-bullets">
+        <li>ILIT Strategy &amp; Coordination</li>
+        <li>Estate Tax Mitigation</li>
+        <li>Generational Wealth Transfer</li>
+        <li>Attorney Collaboration</li>
+      </ul>
+    </div>
+    <div class="ins-card">
+      <div class="ins-card-icon" style="background:rgba(45,122,79,0.1);">📈</div>
+      <h3>Annuities</h3>
+      <p>Guaranteed lifetime income you cannot outlive — fixed, indexed, or immediate annuities tailored to your retirement timeline.</p>
+      <ul class="ins-bullets">
+        <li>Fixed &amp; Indexed Annuities</li>
+        <li>Guaranteed Income Riders</li>
+        <li>Tax-Deferred Accumulation</li>
+        <li>Pension Replacement Plans</li>
+      </ul>
+    </div>
+    <div class="ins-card">
+      <div class="ins-card-icon" style="background:rgba(124,92,191,0.1);">💼</div>
+      <h3>Disability Insurance</h3>
+      <p>Your earning power is your greatest asset. Protect it with own-occupation disability coverage that pays when illness or injury strikes.</p>
+      <ul class="ins-bullets">
+        <li>Short &amp; Long-Term Disability</li>
+        <li>Own-Occupation Policies</li>
+        <li>Business Overhead Expense</li>
+        <li>Supplemental Riders</li>
+      </ul>
+    </div>
+    <div class="ins-card">
+      <div class="ins-card-icon" style="background:rgba(200,90,60,0.1);">🏡</div>
+      <h3>Long-Term Care</h3>
+      <p>Protect your savings from devastating care costs without burdening your family — traditional LTC and hybrid life/LTC products.</p>
+      <ul class="ins-bullets">
+        <li>Traditional LTC Policies</li>
+        <li>Hybrid Life/LTC Products</li>
+        <li>Home Health Care Riders</li>
+        <li>Inflation Protection</li>
+      </ul>
+    </div>
+    <div class="ins-card">
+      <div class="ins-card-icon" style="background:rgba(26,107,120,0.1);">💊</div>
+      <h3>Medicare Plans</h3>
+      <p>Navigate Medicare with confidence. We compare Medigap, Medicare Advantage, and Part D plans across top carriers to find your best fit.</p>
+      <ul class="ins-bullets">
+        <li>Medicare Supplement (Medigap)</li>
+        <li>Medicare Advantage (Part C)</li>
+        <li>Prescription Drug (Part D)</li>
+        <li>Annual Plan Reviews</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ESTATE PLANNING -->
+<section class="estate-section" id="estate">
+  <div class="estate-inner">
+    <div class="section-header" style="text-align:center;max-width:700px;margin:0 auto 0;">
+      <div class="s-tag bronze">Estate Planning &amp; Wealth Transfer</div>
+      <h2 class="s-title">Your Will Is Not Your Estate Plan</h2>
+      <p class="s-sub">A will distributes what's left. A real estate plan protects what you've built — while you're still here. Safe Harbor Group coordinates insurance, trusts, and financial strategy into a unified plan that minimizes taxes and maximizes your legacy.</p>
+    </div>
+    <div class="estate-grid">
+      <div class="estate-pillars">
+        <div class="ep-card">
+          <div class="ep-card-top"><div class="ep-icon">🏦</div><h4>Irrevocable Life Insurance Trusts (ILITs)</h4></div>
+          <p>Remove life insurance proceeds from your taxable estate entirely — delivering death benefits income and estate-tax free to heirs. Must be structured and funded correctly; we specialize in getting it right.</p>
+        </div>
+        <div class="ep-card">
+          <div class="ep-card-top"><div class="ep-icon">🎁</div><h4>Strategic Gifting Programs</h4></div>
+          <p>Coordinate annual exclusion gifts and lifetime exemption strategy with your attorney to systematically reduce estate tax exposure over time. We build the insurance component that makes gifting programs work.</p>
+        </div>
+        <div class="ep-card">
+          <div class="ep-card-top"><div class="ep-icon">👨‍👩‍👧‍👦</div><h4>Beneficiary Equalization</h4></div>
+          <p>When estate assets aren't easily divided equally — real estate, a business, a concentrated investment — life insurance provides the liquidity to equalize inheritances without forcing a sale.</p>
+        </div>
+        <div class="ep-card">
+          <div class="ep-card-top"><div class="ep-icon">📜</div><h4>Buy-Sell Agreement Funding</h4></div>
+          <p>A buy-sell agreement without funding is just paper. Life insurance makes it executable at precisely the moment it's needed — protecting business continuity and surviving partners.</p>
+        </div>
+        <div class="ep-card">
+          <div class="ep-card-top"><div class="ep-icon">🏠</div><h4>Real Estate in the Estate</h4></div>
+          <p>For most families, real estate is the largest estate asset — and the hardest to divide. We coordinate property holdings with your insurance and trust strategy so they work together, not in conflict.</p>
+        </div>
+        <div class="ep-card">
+          <div class="ep-card-top"><div class="ep-icon">💝</div><h4>Charitable Remainder Trusts</h4></div>
+          <p>Fund charitable giving strategies with life insurance to replace inherited wealth while benefiting causes you care about — a powerful tool for high-net-worth families with philanthropic goals.</p>
+        </div>
+      </div>
+      <div class="estate-right">
+        <div class="estate-highlight">
+          <h3>The Estate Planning Gap Most Families Miss</h3>
+          <p>In 40 years of working with families, the most common gap I see is this: excellent legal documents — wills, trusts, powers of attorney — with no coordinated insurance and financial strategy to fund them.</p>
+          <p style="margin-top:0.75rem;">Safe Harbor Group fills that gap. We work alongside your attorney and CPA — not instead of them — to layer in the tools that legal documents alone can't provide.</p>
+          <ul class="estate-checklist">
+            <li>ILIT design and policy placement</li>
+            <li>Annuity beneficiary coordination</li>
+            <li>Estate tax exposure analysis</li>
+            <li>Policy review and repositioning</li>
+            <li>Real estate and insurance alignment</li>
+            <li>Annual strategy reviews</li>
+          </ul>
+        </div>
+        <div class="estate-partner-box">
+          <h4>🤝 We Work With Your Existing Advisers</h4>
+          <p>Safe Harbor Group is not a replacement for your estate attorney or CPA. We are the insurance and financial partner that makes their work executable — providing the products, strategies, and coordination that complete a well-designed estate plan.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RETIREMENT STRATEGY -->
+<section class="retirement-section" id="retirement">
+  <div class="retirement-inner">
+    <div class="section-header" style="text-align:center;max-width:700px;margin:0 auto 0;">
+      <div class="s-tag teal">Retirement &amp; Income Planning</div>
+      <h2 class="s-title">A Retirement Plan That Works With or Without the Business</h2>
+      <p class="s-sub">Most business owners and high-net-worth individuals don't have a retirement strategy that survives the sale — or the loss — of their primary asset. Safe Harbor Group builds plans that generate income, minimize taxes, and protect your legacy regardless of what happens next.</p>
+    </div>
+    <div class="ret-grid">
+      <div class="ret-card rollover">
+        <div class="ret-card-icon">🔄</div>
+        <h3>Rollover Consolidation</h3>
+        <p>Scattered 401(k)s, IRAs, and pension plans across multiple providers are difficult to manage and easy to lose track of. We consolidate them into a unified, professionally managed strategy.</p>
+        <ul class="ret-bullets">
+          <li>401(k) and 403(b) rollover coordination</li>
+          <li>IRA consolidation and repositioning</li>
+          <li>Pension and defined benefit coordination</li>
+          <li>Beneficiary alignment across all accounts</li>
+        </ul>
+      </div>
+      <div class="ret-card tax">
+        <div class="ret-card-icon">📊</div>
+        <h3>Tax Minimization Strategy</h3>
+        <p>The biggest threat to retirement income is not market volatility — it's taxes. We build strategies that legally minimize your tax burden throughout retirement and beyond.</p>
+        <ul class="ret-bullets">
+          <li>Roth conversion planning and timing</li>
+          <li>RMD strategy and optimization</li>
+          <li>IRMAA threshold management</li>
+          <li>Tax-deferred vs. tax-free allocation</li>
+        </ul>
+      </div>
+      <div class="ret-card income">
+        <div class="ret-card-icon">💰</div>
+        <h3>Guaranteed Lifetime Income</h3>
+        <p>The one risk most retirees don't plan for: outliving their money. Annuities and structured income strategies provide a guaranteed paycheck for life — regardless of market conditions.</p>
+        <ul class="ret-bullets">
+          <li>Fixed and indexed annuity design</li>
+          <li>Guaranteed income rider selection</li>
+          <li>Social Security optimization timing</li>
+          <li>Pension replacement income plans</li>
+        </ul>
+      </div>
+    </div>
+    <div class="rmd-banner">
+      <div class="rmd-banner-text">
+        <h3>RMDs, Roth Conversions &amp; IRMAA — The Retirement Tax Trifecta</h3>
+        <p>Required Minimum Distributions can push you into a higher tax bracket, trigger Medicare surcharges (IRMAA), and reduce the wealth you pass to heirs. A proactive strategy — started well before age 73 — can dramatically reduce this exposure. Safe Harbor Group specializes in building tax-efficient retirement income plans that address all three simultaneously.</p>
+      </div>
+      <div class="rmd-badge">
+        <div class="rmd-badge-num">Age 73</div>
+        <div class="rmd-badge-label">RMD Start Age<br>(Current Law)</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMMERCIAL REAL ESTATE BROKERAGE -->
+<section class="cre-section" id="commercial">
+  <div class="cre-inner">
+    <div class="section-header" style="text-align:center;max-width:700px;margin:0 auto 0;">
+      <div class="s-tag bronze">Commercial Real Estate Brokerage</div>
+      <h2 class="s-title">Financing Expertise Across Every Property Type</h2>
+      <p class="s-sub">Licensed NYS Real Estate Broker serving NY, NJ, DE, and MD — with a unique cross-discipline advantage that combines commercial brokerage expertise with insurance and estate planning knowledge most brokers simply don't have.</p>
+    </div>
+    <div class="cre-split">
+      <div class="cre-left">
+        <div class="cre-service-stack">
+          <div class="cre-service">
+            <div class="cre-service-icon">🏢</div>
+            <div>
+              <h4>Commercial Sales &amp; Leasing</h4>
+              <p>Office buildings, retail centers, industrial, and mixed-use properties. Buyer, seller, landlord, and tenant representation across the NY metro area.</p>
+            </div>
+          </div>
+          <div class="cre-service">
+            <div class="cre-service-icon">🏪</div>
+            <div>
+              <h4>Retail Brokerage</h4>
+              <p>Street-level retail, shopping center spaces, and specialty retail formats. Including public agency and transit retail sourcing for qualified operators.</p>
+            </div>
+          </div>
+          <div class="cre-service">
+            <div class="cre-service-icon">🏗️</div>
+            <div>
+              <h4>Development Site Sourcing</h4>
+              <p>Identifying and evaluating development opportunities for residential, commercial, and mixed-use projects across NY, NJ, DE, and MD.</p>
+            </div>
+          </div>
+          <div class="cre-service">
+            <div class="cre-service-icon">💼</div>
+            <div>
+              <h4>Business Financing &amp; SBA Loans</h4>
+              <p>Owner-occupied commercial real estate financing, SBA 7(a) and 504 loans, equipment financing, and business acquisition lending.</p>
+            </div>
+          </div>
+          <div class="cre-service">
+            <div class="cre-service-icon">🏠</div>
+            <div>
+              <h4>Residential Mortgage &amp; Refinance</h4>
+              <p>Conventional, FHA, VA, jumbo, and investment property loans. Purchase, refinance, and cash-out strategies coordinated with your overall financial plan.</p>
+            </div>
+          </div>
+          <div class="cre-service">
+            <div class="cre-service-icon">⚖️</div>
+            <div>
+              <h4>Real Estate &amp; Estate Plan Coordination</h4>
+              <p>When real estate is your largest estate asset, your property strategy and your estate plan must work together. We are the only broker who can address both sides simultaneously.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cre-right">
+        <div class="cre-market-box">
+          <h3>Markets Served</h3>
+          <div>
+            <span class="market-tag">Staten Island</span>
+            <span class="market-tag">Manhattan</span>
+            <span class="market-tag">Brooklyn</span>
+            <span class="market-tag">Queens</span>
+            <span class="market-tag">Bronx</span>
+            <span class="market-tag">New Jersey</span>
+            <span class="market-tag">Delaware</span>
+            <span class="market-tag">Maryland</span>
+            <span class="market-tag">NY Metro Area</span>
+            <span class="market-tag">Transit Corridors</span>
+          </div>
+        </div>
+        <div class="cre-license-box">
+          <h4>Licenses &amp; Credentials</h4>
+          <div class="lic-detail"><strong>NYS Real Estate Broker</strong> — License #10491205181</div>
+          <div class="lic-detail"><strong>Life &amp; Accident Insurance Agent</strong> — NPN #16050624</div>
+          <div class="lic-detail"><strong>States Licensed:</strong> New York · New Jersey · Delaware · Maryland</div>
+          <div class="lic-detail"><strong>Practice Areas:</strong> Commercial, Residential, Public Agency, Estate Coordination</div>
+          <div class="lic-detail"><strong>In Practice Since:</strong> 1985</div>
+        </div>
+        <div style="margin-top:1.5rem;background:linear-gradient(135deg,rgba(176,125,58,0.12),rgba(26,107,120,0.12));border:1px solid rgba(176,125,58,0.25);border-radius:14px;padding:1.75rem;">
+          <h4 style="color:var(--midnight);font-size:1rem;font-weight:700;margin-bottom:0.65rem;">🔗 The Safe Harbor Advantage</h4>
+          <p style="font-size:0.87rem;color:var(--body);line-height:1.65;">"Having both insurance and real estate licenses under one roof allows us to see synergies most advisers miss — like using a property refinance to fund a life insurance strategy, structuring business financing alongside key-person coverage, or aligning a commercial property holding with an estate plan."</p>
+          <p style="font-size:0.8rem;color:var(--fog);margin-top:0.75rem;">— Robert P. Brown, Principal, Safe Harbor Group</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRANSIT & AGENCY RETAIL -->
+<section class="transit-section" id="transit">
+  <div class="transit-inner">
+    <div class="transit-header section-header">
+      <div class="s-tag bronze">Transit &amp; Public Agency Retail</div>
+      <h2 class="s-title">Direct Deal Flow from MTA, Port Authority &amp; NYC EDC</h2>
+      <p class="s-sub">Safe Harbor Group receives inbound RFPs, retail licensing opportunities, and property solicitations directly from New York's major public agencies — and we help qualified operators navigate the process from opportunity to award.</p>
+    </div>
+    <div class="agency-badges">
+      <span class="agency-badge">MTA / NYCT</span>
+      <span class="agency-badge">Port Authority NY &amp; NJ</span>
+      <span class="agency-badge">NYC Economic Development Corp</span>
+      <span class="agency-badge">NJ Transit</span>
+      <span class="agency-badge">Public Agency Partners</span>
+    </div>
+    <div class="transit-stat-row">
+      <div class="t-stat">
+        <div class="t-stat-num">16</div>
+        <div class="t-stat-label">Current Penn Station Locations</div>
+      </div>
+      <div class="t-stat">
+        <div class="t-stat-num">1,696</div>
+        <div class="t-stat-label">Max Square Feet Available</div>
+      </div>
+      <div class="t-stat">
+        <div class="t-stat-num">13+</div>
+        <div class="t-stat-label">Subway Lines Accessible</div>
+      </div>
+      <div class="t-stat">
+        <div class="t-stat-num">$0</div>
+        <div class="t-stat-label">Cost to Join Operator Network</div>
+      </div>
+    </div>
+    <div class="transit-grid">
+      <div class="transit-card">
+        <div class="transit-card-icon">📋</div>
+        <h3>Deal Flow Distribution</h3>
+        <p>We receive RFPs, RLIs, and retail solicitations directly from public agencies and distribute them to our pre-qualified Operator Network — giving members access before general public posting.</p>
+      </div>
+      <div class="transit-card">
+        <div class="transit-card-icon">📝</div>
+        <h3>RFP Response Consulting</h3>
+        <p>Most operators who lose public agency opportunities lose on process, not concept. We guide operators through qualification, submission strategy, narrative development, and final package assembly.</p>
+      </div>
+      <div class="transit-card">
+        <div class="transit-card-icon">🏆</div>
+        <h3>Competitive Positioning</h3>
+        <p>Public agencies evaluate on financial capacity, operating experience, concept quality, and community benefit. We help you build a submission that addresses all four evaluation dimensions.</p>
+      </div>
+      <div class="transit-card">
+        <div class="transit-card-icon">🤝</div>
+        <h3>Agency Relationships</h3>
+        <p>Safe Harbor Group has established distribution relationships with multiple public agencies — positioning us as a trusted sourcing partner for retail, licensing, and leasing solicitations.</p>
+      </div>
+      <div class="transit-card">
+        <div class="transit-card-icon">🍔</div>
+        <h3>F&amp;B &amp; Convenience Operators</h3>
+        <p>Agencies like NYCT actively seek high-quality food, beverage, and convenience concepts that enhance the rider experience. If that's your brand, transit retail is worth your attention.</p>
+      </div>
+      <div class="transit-card">
+        <div class="transit-card-icon">🏪</div>
+        <h3>Franchise &amp; Multi-Unit Operators</h3>
+        <p>Transit retail offers franchise operators what traditional storefronts can't: built-in foot traffic, institutional stability, and unmatched daily brand visibility at some of the most-trafficked locations in the country.</p>
+      </div>
+    </div>
+    <div class="transit-cta-box">
+      <div>
+        <h3>🚇 Active Opportunity: Penn Station Complex — NYCT</h3>
+        <p>16 retail locations available (14 mezzanine + 2 kiosks) ranging from 130 to 1,696 SF. One of Midtown Manhattan's highest-traffic transit environments. NYCT preference for quality food, beverage, and convenience operators. Contact us for the full opportunity brief and RFP package.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:0.75rem;">
+        <a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#network" class="btn-bronze">Join Operator Network</a>
+        <a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#contact" class="btn-teal">Request Full Brief</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OPERATOR NETWORK SIGNUP -->
+<section class="network-section" id="network">
+  <div class="network-inner">
+    <div class="s-tag bronze" style="display:inline-block;margin-bottom:1rem;">Operator Network</div>
+    <h2>Join the Safe Harbor Group<br><em style="color:var(--bronze-light);">Operator Network</em></h2>
+    <p>Get priority access to public agency retail opportunities before they're publicly posted. No retainer required to join. No obligation. Just first access when the right deal comes in.</p>
+    <div class="network-perks">
+      <div class="network-perk">
+        <div class="network-perk-icon">📬</div>
+        <h4>Priority Deal Alerts</h4>
+        <p>Receive new opportunities from MTA, Port Authority, NYC EDC, and other agencies before public posting.</p>
+      </div>
+      <div class="network-perk">
+        <div class="network-perk-icon">📄</div>
+        <h4>Full RFP Packages</h4>
+        <p>Get complete deal briefs, RFP documents, and opportunity summaries delivered directly to your inbox.</p>
+      </div>
+      <div class="network-perk">
+        <div class="network-perk-icon">📞</div>
+        <h4>Direct Access to Robert Brown</h4>
+        <p>Network members can reach Robert directly for questions on any opportunity — no gatekeepers.</p>
+      </div>
+    </div>
+    <div class="network-form">
+      <div class="network-form-row">
+        <div class="nf-group">
+          <label>Full Name</label>
+          <input type="text" placeholder="Your name">
+        </div>
+        <div class="nf-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="your@email.com">
+        </div>
+        <div class="nf-group">
+          <label>Operator Type</label>
+          <select>
+            <option value="">Select type...</option>
+            <option>Food &amp; Beverage</option>
+            <option>Quick Service / Fast Casual</option>
+            <option>Coffee / Café</option>
+            <option>Convenience / Newsstand</option>
+            <option>Specialty Retail</option>
+            <option>Franchise Operator</option>
+            <option>Developer / Investor</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#contact" class="btn-bronze" style="padding:0.75rem 1.5rem;font-size:0.88rem;">Join Now →</a>
+      </div>
+      <p class="network-disclaimer">By joining, you agree to receive deal flow alerts from Safe Harbor Group. You may unsubscribe at any time. Your information is never shared or sold.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SOCIAL / FOLLOW STRIP -->
+<div class="social-strip">
+  <div class="social-strip-inner">
+    <div class="social-strip-text">
+      <h3>Follow Safe Harbor Group</h3>
+      <p>Deal flow alerts, market insights, and estate &amp; retirement strategy — across all platforms.</p>
+    </div>
+    <div class="social-links">
+      <a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#" class="social-link linkedin">🔗 LinkedIn</a>
+      <a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#" class="social-link facebook">📘 Facebook</a>
+      <a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#" class="social-link instagram">📸 Instagram</a>
+      <a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#contact" class="social-link email">✉️ Email Updates</a>
+    </div>
+  </div>
+</div>
+
+<!-- TRUST FUNDING -->
+<section class="trust-section" id="trust">
+  <div class="section-header">
+    <div class="s-tag bronze">Specialty Focus</div>
+    <h2 class="s-title">Trust Funding — Our Signature Expertise</h2>
+    <p class="s-sub">Funding trusts correctly with life insurance and annuities requires both product knowledge and legal coordination. With 40 years of experience, we get it right.</p>
+  </div>
+  <div class="trust-grid">
+    <div>
+      <div class="trust-steps">
+        <div class="trust-step">
+          <div class="ts-num">1</div>
+          <div class="ts-body">
+            <h4>Assess the Estate Plan</h4>
+            <p>We review your current trust documents, estate attorney's plan, and tax exposure to identify the right funding approach.</p>
+          </div>
+        </div>
+        <div class="trust-step">
+          <div class="ts-num">2</div>
+          <div class="ts-body">
+            <h4>Design the Funding Strategy</h4>
+            <p>Select the right product — life insurance, annuity, or combination — to maximize the trust's value while minimizing tax drag.</p>
+          </div>
+        </div>
+        <div class="trust-step">
+          <div class="ts-num">3</div>
+          <div class="ts-body">
+            <h4>Coordinate with Legal &amp; Tax Advisors</h4>
+            <p>We work alongside your estate attorney and CPA to ensure the insurance structure integrates cleanly with your legal documents.</p>
+          </div>
+        </div>
+        <div class="trust-step">
+          <div class="ts-num">4</div>
+          <div class="ts-body">
+            <h4>Implement &amp; Monitor</h4>
+            <p>Policy in force, trust funded. We review annually and adjust as tax laws, family situations, or estate values change.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="trust-types">
+      <div class="trust-type-card">
+        <div class="tc-tag">Most Common</div>
+        <h4>Irrevocable Life Insurance Trust (ILIT)</h4>
+        <p>Removes life insurance from the taxable estate while delivering death benefits income and estate-tax free to heirs.</p>
+      </div>
+      <div class="trust-type-card">
+        <div class="tc-tag">Living Trust</div>
+        <h4>Revocable Living Trust Funding</h4>
+        <p>Coordinate life insurance beneficiary designations and asset titling to ensure your living trust is properly funded and probate-free.</p>
+      </div>
+      <div class="trust-type-card">
+        <div class="tc-tag">Business Owner</div>
+        <h4>Buy-Sell Agreement Funding</h4>
+        <p>Use life insurance to fund cross-purchase or entity-redemption agreements — ensuring business continuity at a partner's death.</p>
+      </div>
+      <div class="trust-type-card">
+        <div class="tc-tag">Legacy Planning</div>
+        <h4>Charitable Remainder Trusts</h4>
+        <p>Fund charitable giving strategies with life insurance to replace inherited wealth while benefiting causes you care about.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <h2>40 Years of Wisdom.<br>One Free Conversation.</h2>
+    <p>Whether you need insurance, estate planning, retirement strategy, commercial real estate brokerage, or transit retail deal access — bring your questions and walk away with a clear plan. No pressure, no jargon, no sales pitch.</p>
+    <div class="cta-row">
+      <a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#contact" class="btn-gold">📅 Schedule Your Free Consultation</a>
+      <a href="tel:+13478575434" class="btn-outline-gold">📞 (347) 857-5434</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="section-header">
+    <div class="s-tag teal">Get In Touch</div>
+    <h2 class="s-title">Let's Build Your Plan Together</h2>
+    <p class="s-sub">Reach out today and we'll connect within one business day to schedule your complimentary consultation.</p>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-left">
+      <h3>Robert P. Brown</h3>
+      <p>A full-service cross-discipline advisory practice spanning insurance, estate planning, retirement strategy, commercial real estate brokerage, and public agency transit retail — backed by 40+ years of hands-on experience. Licensed. Independent. Committed to your best interests.</p>
+      <div class="c-info">
+        <div class="c-item">
+          <div class="c-icon">📍</div>
+          <div class="c-text"><strong>Serving</strong>New York · New Jersey · Delaware · Maryland</div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon">📞</div>
+          <div class="c-text"><strong>Phone</strong>(347) 857-5434</div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon">✉️</div>
+          <div class="c-text"><strong>Email</strong>robertp@safe-harbor-group.com</div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon">🌐</div>
+          <div class="c-text"><strong>Web</strong>safe-harbor-group.com</div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon">🕐</div>
+          <div class="c-text"><strong>Hours</strong>Mon–Fri 9am–6pm · Sat by Appt</div>
+        </div>
+      </div>
+      <div class="licenses">
+        <h4>Licensed &amp; Qualified In</h4>
+        <div class="lic-pills">
+          <span class="lic-pill">Life Insurance</span>
+          <span class="lic-pill">Annuities</span>
+          <span class="lic-pill">Disability</span>
+          <span class="lic-pill">Long-Term Care</span>
+          <span class="lic-pill">Medicare Plans</span>
+          <span class="lic-pill">Accident &amp; Health</span>
+          <span class="lic-pill">NYS RE Broker</span>
+          <span class="lic-pill">Commercial RE</span>
+          <span class="lic-pill">Estate Planning</span>
+          <span class="lic-pill">Retirement Strategy</span>
+          <span class="lic-pill">Transit Retail</span>
+          <span class="lic-pill">RFP Consulting</span>
+        </div>
+      </div>
+    </div>
+    <div class="form-box">
+      <h3>Request a Free Consultation</h3>
+      <div class="f-row">
+        <div class="f-group">
+          <label>First Name</label>
+          <input type="text" placeholder="John">
+        </div>
+        <div class="f-group">
+          <label>Last Name</label>
+          <input type="text" placeholder="Smith">
+        </div>
+      </div>
+      <div class="f-row">
+        <div class="f-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="john@email.com">
+        </div>
+        <div class="f-group">
+          <label>Best Phone Number</label>
+          <input type="tel" placeholder="(XXX) XXX-XXXX">
+        </div>
+      </div>
+      <div class="f-group">
+        <label>Company / Business Name (Optional)</label>
+        <input type="text" placeholder="Your business name">
+      </div>
+      <div class="f-group">
+        <label>I Need Help With</label>
+        <select>
+          <option value="">Select area of interest...</option>
+          <optgroup label="Insurance &amp; Financial Planning">
+            <option>Life Insurance</option>
+            <option>Trust Funding Strategy</option>
+            <option>Annuities / Retirement Income</option>
+            <option>Disability Insurance</option>
+            <option>Long-Term Care Insurance</option>
+            <option>Medicare Plan Review</option>
+          </optgroup>
+          <optgroup label="Estate Planning &amp; Wealth Transfer">
+            <option>ILIT / Trust Coordination</option>
+            <option>Estate Tax Minimization</option>
+            <option>Strategic Gifting</option>
+            <option>Beneficiary Equalization</option>
+            <option>Buy-Sell Agreement Funding</option>
+          </optgroup>
+          <optgroup label="Retirement Strategy">
+            <option>Rollover Consolidation</option>
+            <option>Roth Conversion Planning</option>
+            <option>RMD Strategy</option>
+            <option>Guaranteed Lifetime Income</option>
+          </optgroup>
+          <optgroup label="Real Estate &amp; Mortgage">
+            <option>Commercial Real Estate Brokerage</option>
+            <option>Residential Mortgage / Refinance</option>
+            <option>Business Financing / SBA Loan</option>
+            <option>Real Estate &amp; Estate Plan Coordination</option>
+          </optgroup>
+          <optgroup label="Transit &amp; Public Agency Retail">
+            <option>Join Operator Network (Free)</option>
+            <option>Penn Station Opportunity Brief</option>
+            <option>RFP Response Consulting</option>
+            <option>Agency Partnership Inquiry</option>
+          </optgroup>
+          <option>Comprehensive Multi-Service Review</option>
+        </select>
+      </div>
+      <div class="f-group">
+        <label>Tell Us About Your Situation</label>
+        <textarea placeholder="Share your goals, concerns, current coverage, or the opportunity you&#39;re interested in..."></textarea>
+      </div>
+      <button class="f-submit">Request My Free Consultation →</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <span class="name">⚓ Safe Harbor Group</span>
+      <p>Robert P. Brown — Insurance, estate planning, retirement strategy, commercial real estate brokerage, and transit retail deal consulting. 40+ years of proven expertise serving NY, NJ, DE &amp; MD.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Insurance &amp; Planning</h5>
+      <ul>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#insurance">Life Insurance</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#trust">Trust Funding</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#insurance">Annuities</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#insurance">Disability</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#insurance">Long-Term Care</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#insurance">Medicare Plans</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Estate &amp; Retirement</h5>
+      <ul>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#estate">Estate Planning</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#estate">ILIT Strategy</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#retirement">Retirement Planning</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#retirement">Roth Conversions</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#retirement">RMD Strategy</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#retirement">Rollover Consolidation</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Real Estate &amp; Retail</h5>
+      <ul>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#commercial">Commercial Brokerage</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#commercial">Residential Mortgage</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#commercial">Business Financing</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#transit">Transit Retail</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#network">Operator Network</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#transit">RFP Consulting</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Connect</h5>
+      <ul>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#about">About</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#contact">Free Consultation</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#">LinkedIn</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#">Facebook</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#">Instagram</a></li>
+        <li><a href="file:///C:/Users/rober/OneDrive/Desktop/safe-harbor-group-v3.html#">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Safe Harbor Group · Robert P. Brown. All rights reserved.</p>
+    <p>Licensed NYS Real Estate Broker #10491205181 · Life &amp; Accident Insurance Agent NPN #16050624 · Serving NY · NJ · DE · MD</p>
+  </div>
+  <p class="disclaimer">Safe Harbor Group is an independent insurance, financial services, and real estate brokerage practice operated by Robert P. Brown, Licensed NYS Real Estate Broker #10491205181 and Licensed Life &amp; Accident Insurance Agent NPN #16050624. Insurance products are not FDIC insured. Real estate and mortgage products are subject to credit approval and state availability. Transit retail consulting services are provided as an independent sourcing and advisory firm; Safe Harbor Group does not represent MTA, Port Authority, NYC EDC, or any public agency and does not guarantee award of any license, lease, or contract. This website is for informational purposes only and does not constitute financial, legal, or tax advice. Consult qualified professionals regarding your specific situation. Licensed in New York (NY), New Jersey (NJ), Delaware (DE), and Maryland (MD).</p>
+</footer>
+
+
+
+</body></html>
